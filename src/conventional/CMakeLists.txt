@@ -11,6 +11,7 @@ list(APPEND programs
   sonde_tac2ioda.py
   synop_bufr2ioda.py
   tcv_txt2ioda.py
+  uas_2ioda.py
 )
 
 file( RELATIVE_PATH SCRIPT_LIB_PATH ${CMAKE_BINARY_DIR}/bin ${PYIODACONV_BUILD_LIBDIR} )
